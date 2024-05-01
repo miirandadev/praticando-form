@@ -1,0 +1,96 @@
+
+*{
+    margin: 0;
+}
+body{
+    background:linear-gradient(to right,  rgb(148, 120, 174), rgb(160, 73, 242));
+}
+h1{
+    text-align: center;
+    margin-top: 35px;
+    color: rgb(30, 29, 29);
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+span{
+    color: rgb(82, 184, 130);
+    font-size: 25px;
+    font-family: "Roboto", sans-serif; 
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.formulario{
+    border-radius: 20px;
+    padding: 30px;
+    width: 300px;
+    background-color:rgb(93, 132, 111);
+    box-shadow: 0px 1px 5px 2px #515050;
+    height: auto;
+}
+
+label {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    color: rgb(56, 66, 65);
+}
+
+.nome{
+    border: 1px solid #ccc;
+    padding:5px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 3px;
+}
+.inp-nome{
+    font-size: 15px;
+    width: 250px;
+    border-radius: 5px;
+    border: none;
+    color: #8b8787;
+}
+.data-nasc {
+    border: 1px solid #ccc;
+    padding:5px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 3px;
+    margin-top: 5px;
+}
+.inp-nasc , .selct-personalizado{
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    color: #8b8787;
+}
+.diversidade{
+    border: 1px solid #ccc;
+    padding:5px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 3px;
+    margin-top: 5px;
+}
+.genero {
+    color: #070d3f;
+}
+
+.btn-cadastro{
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    color: #f5e7e7;
+    background-color: rgb(101, 122, 101);
+}
+
+.btn-submit{
+    text-align: center;
+    margin-top: 15px;
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Praticando</title>
+</head>
+
+<body>
+    <h1>Cadastre-se para <span>novas experiências</span></h1>
+    
+    <div class="container">
+        <div class="formulario">
+            <form method="get" action="index.html">
+                <div class="nome">
+                    <label>Nome:</label><br><br>
+                    <input class="inp-nome" type="text" name="nome" id="nome" placeholder="Nome"><br><br>
+                </div>
+                
+                <div class="data-nasc">
+                    <label>Data de nascimento:</label><br><br>
+                    <select class="inp-nasc" name="dia">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                    </select>
+                    <select class="inp-nasc"  name="mês">
+                        <option value="jan">Janeiro</option>
+                        <option value="fev">Fevereiro</option>
+                        <option value="mar">Março</option>
+                        <option value="abr">Abril</option>
+                        <option value="mai">Maio</option>
+                        <option value="jun">Junho</option>
+                        <option value="jul">Julho</option>
+                        <option value="ago">Agosto</option>
+                        <option value="set">Setembro</option>
+                        <option value="out">Outubro</option>
+                        <option value="nov">Novembro</option>
+                        <option value="dez">Dezembro</option>
+                    </select>
+                    <select class="inp-nasc" name="ano">
+                        <option value="1997" selected>1997</option>
+                        <option value="1998">1998</option>
+                        <option value="1999">1999</option>
+                        <option value="2000">2000</option>
+                        <option value="2001">2001</option>
+                        <option value="2002">2002</option>
+                        <option value="2003">2003</option>
+                        <option value="2004">2004</option>
+                        <option value="2005">2005</option>
+                        <option value="2006">2006</option>
+                    </select><br><br>
+                    
+                </div>
+    
+                <div class="diversidade">
+
+                    <label>Diversidade:</label><br><br>
+                    <label class="genero" for="feminino">Feminino</label>
+                    <input type="radio" name="genero" id="feminino" value="feminino">
+        
+                    <label class="genero" for="masculino">Masculino</label>
+                    <input type="radio" name="genero" id="masculino" value="masculino">
+
+                    <br><br>
+
+                    <label for="personalizado">Personalizado:</label><br><br>
+                    <select class="selct-personalizado" name="personalizado" id="personalizado">
+                        <option value="">Selecione</option>
+                        <option value="Prefiro-nao-informar">Prefiro não informar</option>
+                        <option value="mulher-trans">Mulher Trans</option>
+                        <option value="homem-trans">Homem Trans</option>
+                        <option value="nao-binario">Não Bínario</option>
+                    </select><br><br>
+                </div>
+                <div class="btn-submit">
+                    <input class="btn-cadastro" type="submit" value="Cadastrar">    
+                </div>
+                
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
